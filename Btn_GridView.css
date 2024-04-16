@@ -1,0 +1,83 @@
+﻿.btb-control-delete-gridview {
+    border-radius: 15px;
+    height: 30px;
+    width: 110px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-image: linear-gradient(to left, #f38c00 0%, #f10000 51%, #f93d71 100%);
+}
+
+    .btb-control-delete-gridview:hover {
+        animation: swing 0.2s ease;
+        animation-iteration-count: 1;
+        background-position: right center;
+    }
+
+.btb-control-select-gridview {
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-image: linear-gradient(to left, #009506 0%, #f3ff38 51%, #ff0000 100%);
+}
+
+    .btb-control-select-gridview:hover {
+        animation: swing 0.2s ease;
+        animation-iteration-count: 1;
+        background-position: right center;
+    }
+
+.btb-control-edit-gridview {
+    border-radius: 15px;
+    height: 30px;
+    width: 110px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    background-image: linear-gradient(to left, #f0f0f0 0%, #4CAF50 51%, #c0ff00 100%);
+}
+
+    .btb-control-edit-gridview:hover {
+        animation: swing 0.2s ease;
+        animation-iteration-count: 1;
+        background-position: right center;
+    }
+
+@keyframes swing {
+    15% {
+        transform: translateX(9px);
+    }
+
+    30% {
+        transform: translateX(-9px);
+    }
+
+    40% {
+        transform: translateX(6px);
+    }
+
+    50% {
+        transform: translateX(-6px);
+    }
+
+    65% {
+        transform: translateX(3px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+

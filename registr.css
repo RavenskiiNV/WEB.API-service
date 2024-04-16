@@ -1,0 +1,75 @@
+﻿.registr {
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    border-color: inherit;
+    border-width: medium;
+    position: absolute;
+    align-items: center;
+    left: 39%;
+    top: 25%;
+    background-color: #0000004a;
+    border-radius: 25px;
+    height: 35%;
+    width: 25%;
+}
+
+.image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#TextBox1 {
+    position: relative;
+    margin-top: 5%;
+    padding-left: 30px;
+    border: none;
+    height: 10%;
+    width: 70%;
+    border-radius: 10px;
+    background-image: url(Resources/free-icon-user-456212.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 3%;
+    background-color: lightgray;
+}
+
+#TextBox2 {
+    position: relative;
+    margin-top: 5%;
+    padding-left: 30px;
+    border: none;
+    height: 10%;
+    width: 70%;
+    border-radius: 10px;
+    background-image: url(Resources/free-icon-lock-6282948.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 3%;
+    background-color: lightgray;
+}
+
+.lbl_1 {
+    position: relative;
+}
+
+.btn-new {
+    height: 10%;
+    width: 40%;
+    margin-top: 5%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #0800b0 0%, #0029ff 51%, #b53e3e 100%);
+}
+
+    .btn-new:hover {
+        background-position: right center;
+    }

@@ -1,0 +1,28 @@
+﻿.btn-new {
+    height: 10%;
+    width: 40%;
+    margin-top: 1%;
+    margin-right: 1%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #0800b0 0%, #5369dd 51%, #32397e 100%);
+    border: none;
+}
+
+    .btn-new:hover {
+        background-position: right center;
+    }
+
+.txt_for_conncetion_withDatabase {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 4%;
+    top: 10px;
+    align-items: center;
+}
